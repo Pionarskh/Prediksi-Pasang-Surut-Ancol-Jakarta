@@ -31,7 +31,7 @@ with col2:
 st.markdown("""<hr style="height:1px;border:none;color:#333;background-color:#333;"/>""",unsafe_allow_html=True)
 
 # Predict waterfall
-st.header("Waterfall Prediction")
+st.header("Prediction")
 
 input_time = [year,month,day,hour,minute]
 pred = rf.predict(np.array([input_time]))[0]
